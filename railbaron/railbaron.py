@@ -37,7 +37,7 @@ if 'roll' not in session_state:
     write('Click the button above to roll the dice!')
 else:
     dice = session_state['roll']
-    write('The current dice roll is ' + dice[0] + ', ' + dice[1] + ', and ' + dice[3])
+    write(f'The current dice roll is {dice[0]}, {dice[1]}, and {dice[2]}')
 
 
 write('## Payoff calculator')
